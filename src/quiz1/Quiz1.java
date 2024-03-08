@@ -9,7 +9,7 @@ public class Quiz1 {
 
     public static void main(String[] args) {
         int opcion;
-        boolean continuar = true;
+        boolean continuar = true;   
         Interfaz ventana = new Interfaz();
         ventana.setLocationRelativeTo(null);
         ventana.setResizable(false);
