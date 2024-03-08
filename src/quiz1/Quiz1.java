@@ -15,7 +15,6 @@ public class Quiz1 {
         ventana.setResizable(false);
         ventana.setTitle("Calcular figuras geometricas");
         ventana.setVisible(true);
-        //Otro
     }
 
 }
