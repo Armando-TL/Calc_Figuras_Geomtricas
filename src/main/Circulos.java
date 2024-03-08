@@ -1,4 +1,4 @@
-package quiz1;
+package main;
 // @author amdtr
 
 public class Circulos extends FigurasGeometricas {
