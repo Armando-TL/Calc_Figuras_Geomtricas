@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="FigurasGeometricas">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/Ejecutable/FigurasGeometricas.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

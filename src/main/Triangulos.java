@@ -3,7 +3,7 @@ package main;
 
 public class Triangulos extends FigurasGeometricas {
 
-    private double ladoA, ladoB;
+    private double base, altura;
 
     public double calcularHipotenusa() {
         return Math.sqrt((getLadoA() * getLadoA()) + (getLadoB() * getLadoB()));
@@ -19,22 +19,21 @@ public class Triangulos extends FigurasGeometricas {
         return calcularHipotenusa() + getLadoA() + getLadoB();
     }
 
-    
     //Obtener datos
     public void setLadoA(double ladoA) {
-        this.ladoA = ladoA;
+        this.base = ladoA;
     }
 
     public double getLadoA() {
-        return ladoA;
+        return base;
     }
 
     public void setLadoB(double ladoB) {
-        this.ladoB = ladoB;
+        this.altura = ladoB;
     }
 
     public double getLadoB() {
-        return ladoB;
+        return altura;
     }
 
 }

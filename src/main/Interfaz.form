@@ -178,7 +178,7 @@
         </Component>
         <Component class="javax.swing.JRadioButton" name="cambiante">
           <Properties>
-            <Property name="text" type="java.lang.String" value="texto"/>
+            <Property name="text" type="java.lang.String" value="Diagonal"/>
           </Properties>
           <Events>
             <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="cambianteActionPerformed"/>

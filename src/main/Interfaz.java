@@ -3,12 +3,12 @@ package main;
 // @author amdtr
 public class Interfaz extends javax.swing.JFrame {
 
-    // public Double lado1, lado2;
     public Interfaz() {
         initComponents();
         ladoC.setVisible(false);
         txtC.setVisible(false);
-        cambiante.setVisible(false);
+        cuadrado.setSelected(true);
+        area.setSelected(true);
     }
 
     /**
@@ -106,7 +106,7 @@ public class Interfaz extends javax.swing.JFrame {
         });
         jPanel3.add(perimetro, new org.netbeans.lib.awtextra.AbsoluteConstraints(217, 49, -1, -1));
 
-        cambiante.setText("texto");
+        cambiante.setText("Diagonal");
         cambiante.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 cambianteActionPerformed(evt);
@@ -228,6 +228,8 @@ public class Interfaz extends javax.swing.JFrame {
             //mostrar
             ladoA.setEnabled(true);
             LadoB.setEnabled(true);
+            txtA.setText("Ingrese el lado A");
+            txtB.setText("Ingrese el lado B");
             //ocultar
             ladoC.setVisible(false);
             txtC.setVisible(false);
@@ -242,9 +244,11 @@ public class Interfaz extends javax.swing.JFrame {
             //desmarcar
             cuadrado.setSelected(false);
             circulo.setSelected(false);
-            //
+            //Cambiar y mostrar texto
             ladoA.setEnabled(true);
             LadoB.setEnabled(true);
+            txtA.setText("Ingrese la base");
+            txtB.setText("Ingrese la altura");
             // cambiante
             cambiante.setText("Hipotenusa");
             cambiante.setVisible(true);

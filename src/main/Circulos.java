@@ -14,13 +14,11 @@ public class Circulos extends FigurasGeometricas {
     public double calcularPerimetro() {
         return (2 * Math.PI * radio);
     }
-    
-    public double calcularDiametro(){
-    return 2 + Math.PI;
+
+    public double calcularDiametro() {
+        return getRadio() * 2;
     }
-    
-    
-    
+
     //Obtener datos
     public void setRadio(double radio) {
         this.radio = radio;
@@ -29,5 +27,5 @@ public class Circulos extends FigurasGeometricas {
     public double getRadio() {
         return radio;
     }
-    
+
 }
